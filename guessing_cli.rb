@@ -15,7 +15,7 @@ def run_guessing_game
     puts "Try again or type 'exit'"
     reply = gets.chomp
     if reply == "exit"
-      "Goodbye!"
+      puts "Goodbye!"
       #return
     else
       run_guessing_game

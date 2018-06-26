@@ -13,7 +13,7 @@ def run_guessing_game
   
     if guess.to_i == number
       puts "You guessed the correct number!"
-      return
+      reply = "exit"
     else
       puts "The computer guessed #{number}."
       puts number.class

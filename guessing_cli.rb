@@ -16,7 +16,7 @@ def run_guessing_game
     reply = gets.chomp
     if reply == "exit"
       puts "Goodbye!"
-      return
+      #return
     else
       run_guessing_game
     end

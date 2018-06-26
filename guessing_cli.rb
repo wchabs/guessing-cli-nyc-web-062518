@@ -10,6 +10,7 @@ def run_guessing_game
       break
     else
       puts "The computer guessed #{number}."
+      puts "You guessed #{guess}."
       puts "Try again? or type 'exit'."
       guess = gets.chomp
     end

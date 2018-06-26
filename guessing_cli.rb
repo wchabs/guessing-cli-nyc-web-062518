@@ -4,7 +4,15 @@ def run_guessing_game
   
   number = rand(1..6)
   
-  
+  while guess != "exit"
+    if guess == number
+      puts "You guessed the correct number!"
+    else
+      puts "The computer guessed #{number}."
+      puts "Try again? or type 'exit'."
+      guess = gets.chomp
+    end
+  end
   
 end
 

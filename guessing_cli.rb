@@ -1,6 +1,6 @@
 def run_guessing_game
   puts "Guess a number between 1 and 6."
-  guess = gets.chomp.to_i
+  guess = gets.chomp
   
   number = rand(1..6)
   
@@ -10,7 +10,9 @@ def run_guessing_game
       break
     else
       puts "The computer guessed #{number}."
+      puts number.class
       puts "You guessed #{guess}."
+      puts guess.class
       puts "Try again? or type 'exit'."
       guess = gets.chomp
     end

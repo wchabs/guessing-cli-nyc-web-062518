@@ -9,7 +9,7 @@ def run_guessing_game
   guess = gets.chomp
   
   if guess.to_i == number
-    puts "You guessed the correct number!"
+    puts "You guessed the correct number!"  
   else
     puts "The computer guessed #{number}."
     puts "Try again or type 'exit'"

@@ -7,7 +7,7 @@ def run_guessing_game
   
   while reply != "exit"
     puts "Guess a number between 1 and 6."
-    guess = gets.chomp.to_i
+    guess = gets.chomp
   
     if guess == number
       puts "You guessed the correct number!"

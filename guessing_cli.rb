@@ -1,4 +1,4 @@
-def run_guessing_method
+def run_guessing_game
   
 end
 
